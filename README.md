@@ -67,11 +67,11 @@ jupyter notebook
 
 ## Features 
 
--Data preprocessing and exploration 🔍
--Feature engineering 🛠️
--Model training and evaluation 🏋️‍♂️
--Feature importance analysis 📈
--Data visualization 🎨
+- Data preprocessing and exploration 🔍
+- Feature engineering 🛠️
+- Model training and evaluation 🏋️‍♂️
+- Feature importance analysis 📈
+- Data visualization 🎨
 
 ## Results
 The analysis reveals that customers with shorter tenure and month-to-month contracts are more likely to churn. The Random Forest model performed the best in predicting customer churn with an accuracy of 85.36%. The most important feature influencing churn is MonthlyCharges
@@ -79,13 +79,13 @@ The analysis reveals that customers with shorter tenure and month-to-month contr
 ## Feature Importance
 The top 10 most important features identified by the Random Forest model are:
 
-1.MonthlyCharges
-2.TotalCharges
-3.tenure
-4.Contract
-5.InternetService
-6.OnlineSecurity
-7.TechSupport
-8.PaymentMethod
-9.StreamingTV
-10.StreamingMovies
+1. MonthlyCharges
+2. TotalCharges
+3. tenure
+4. Contract
+5. InternetService
+6. OnlineSecurity
+7. TechSupport
+8. PaymentMethod
+9. StreamingTV
+10. StreamingMovies
