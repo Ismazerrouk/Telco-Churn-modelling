@@ -89,3 +89,17 @@ The top 10 most important features identified by the Random Forest model are:
 8. PaymentMethod
 9. StreamingTV
 10. StreamingMovies
+
+## Dashboard (Streamlit)
+Launch an interactive retention dashboard that reuses the Telco churn dataset:
+
+1. Ensure the Telco CSV (`WA_Fn-UseC_-Telco-Customer-Churn.csv`) is available locally in this folder (or note its path).
+2. Install minimal deps:
+   ```sh
+   pip install streamlit pandas plotly
+   ```
+3. Run the app:
+   ```sh
+   streamlit run streamlit_app.py
+   ```
+4. In the sidebar, point `Data path` to the CSV if it is not in the project root. Use the filters to slice by contract type, services, tenure, and billing. The dashboard surfaces churn KPIs, risk tables, and the existing visuals from the analysis.
